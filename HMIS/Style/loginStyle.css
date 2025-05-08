@@ -1,0 +1,29 @@
+#loginform input[type="text"],
+#loginform input[type="number"],
+#loginform input[type="date"],
+#loginform input[type="password"],
+#loginform select,
+#loginh1 input[type="text"],
+#loginh1 input[type="number"],
+#loginh1 input[type="date"],
+#loginh1 input[type="password"],
+#loginh1 select {
+    width: 90%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#loginform{
+    margin: 0 auto;
+}
+#loginh1{
+    text-align: center;
+}
+input[type="submit"] {
+    display: block;       
+    margin: 0 auto;       
+    padding: 10px 20px;
+
+}
