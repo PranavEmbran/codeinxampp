@@ -1,5 +1,0 @@
-CREATE TABLE `student`.`login` ( `Username` INT(20) NOT NULL , `Password` INT(15) NOT NULL ) ENGINE = InnoDB;
-
-ALTER TABLE `studentdetails` ADD INDEX(`ID`);
-
-ALTER TABLE `login` CHANGE `Username` `Username` VARCHAR(20) NOT NULL;
