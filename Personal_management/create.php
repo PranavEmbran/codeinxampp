@@ -13,13 +13,13 @@ include 'display.php' ;
         <form method="post" action="">
             <!-- Input for first name -->
             <label for="firstname">First Name:</label>
-            <input id="firstname" type="text" name="fname" required><br><br>
+            <input id="firstname" type="text" name="fname" style="width: 20%;" required><br><br>
             <!-- Input for last name -->
             <label for="lastname">Last Name:</label>
-            <input id="lastname" type="text" name="lname" required><br><br>
+            <input id="lastname" type="text" name="lname" style="width: 20%;" required><br><br>
             <!-- Input for age -->
             <label for="age">Age:</label>
-            <input id="age" type="age" name="age" required><br><br>
+            <input id="age" type="age" name="age" style="width: 20%;" required><br><br>
             <!-- Submit button to create a new entry -->
             <input type="submit" name="submit" value="Create">
         </form>
